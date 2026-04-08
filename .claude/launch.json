@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "FastAPI Dev Server",
+      "runtimeExecutable": "uvicorn",
+      "runtimeArgs": ["swarm.main:app", "--reload", "--host", "0.0.0.0", "--port", "8080", "--app-dir", "src"],
+      "port": 8080
+    },
+    {
+      "name": "Docker Infrastructure (Postgres + Neo4j + Redis)",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "up", "-d"],
+      "port": 5432
+    },
+    {
+      "name": "Neo4j Browser",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "up", "-d", "neo4j"],
+      "port": 7474
+    },
+    {
+      "name": "Redis",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "up", "-d", "redis"],
+      "port": 6379
+    }
+  ]
+}

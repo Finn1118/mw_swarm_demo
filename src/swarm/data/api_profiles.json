@@ -1,0 +1,134 @@
+{
+  "Sam Altman": {
+    "id": "an_Jvzruyb3etEjSL",
+    "object": "analysis",
+    "model": "thorsten-4",
+    "motives": {
+      "power": 54.94,
+      "achievement": 17.81,
+      "contact": 11.27,
+      "dominant": "power"
+    },
+    "cognition": {
+      "detail": 0,
+      "realization": 100,
+      "analytical": 39.13,
+      "holistic": 60.87,
+      "internal": 43.48,
+      "external": 56.52,
+      "goal": 60.87,
+      "path": 39.13
+    },
+    "affect": {
+      "approach": 47.8,
+      "avoidance": 52.2,
+      "positive": 46.27,
+      "negative": 54.98,
+      "level": 3.34
+    },
+    "regulation": {
+      "self_motivation": 52.36,
+      "self_relaxation": 52.56,
+      "action_orientation_failure": 50.3,
+      "action_orientation_decision": 54.26,
+      "volitional_efficiency": 52.35,
+      "stress_resilience": 56.8
+    },
+    "systems": {
+      "extension_memory": 56.52,
+      "object_recognition": 27.83,
+      "intention_memory": 51.12,
+      "intuitive_behavior": 59.25,
+      "dominant": "intuitive_behavior",
+      "personality_style": "agreeable"
+    },
+    "insights": {
+      "summary": "Profile characterized by high power drive (55%), holistic thinking preference, and balanced approach/avoidance motivation.",
+      "strengths": ["Strategic influence and leadership orientation", "Big-picture thinking and pattern recognition", "Balanced approach between intuition and analysis"],
+      "development_areas": ["Building sustained achievement focus", "Balancing approach and avoidance motivation"]
+    },
+    "descriptions": {
+      "motives": {
+        "power": {"description": "This person has a strong inner drive to influence situations and people around them, whether through their ideas, insights, or personal presence. They naturally take initiative and feel energized when contributing meaningfully to decisions or shaping outcomes in areas that matter to them. They often offer guidance, support, or advice proactively, demonstrating responsibility and engagement in their interactions."},
+        "achievement": {"description": "This person is goal-driven, setting clear, challenging, yet realistic objectives and pursuing them with determination. They derive satisfaction from the process of working towards goals and measure progress carefully."},
+        "contact": {"description": "The person strikes a thoughtful balance between connecting with others and maintaining their independence. They value meaningful interactions but do not rely on social contact as a primary driver."}
+      },
+      "affect": {
+        "approach": {"description": "This person demonstrates a balanced approach to handling obstacles, blending proactive action with cautious evaluation. They can be energized by challenge but also pull back when sensing risk, creating a measured decision-making style."}
+      },
+      "cognition": {
+        "energy": {"description": "This person has a balanced mix of extraversion and introversion, making them both engaging and thoughtful in their interactions."},
+        "focus": {"description": "This person has a holistically-oriented mindset, naturally thinking in terms of systems, patterns, and big-picture connections rather than isolated details."},
+        "action": {"description": "This person combines both intuitive and analytical thinking. They naturally sense patterns and understand complex situations while also valuing data-driven approaches."},
+        "attitude": {"description": "This person is driven by clear, concrete goals and a defined path to reach them. They take satisfaction in having direction and working toward specific objectives."}
+      },
+      "levels": "When individuals are at this level, they experience a sense of satisfaction and self-affirmation. They function in a confident and efficient manner, able to integrate experiences and recover from setbacks."
+    }
+  },
+  "Dario Amodei": {
+    "id": "an_DMlCKZTLtW1vyj",
+    "object": "analysis",
+    "model": "thorsten-4",
+    "motives": {
+      "power": 62.92,
+      "achievement": 19.96,
+      "contact": 6.17,
+      "dominant": "power"
+    },
+    "cognition": {
+      "detail": 0,
+      "realization": 100,
+      "analytical": 73.33,
+      "holistic": 26.67,
+      "internal": 60,
+      "external": 40,
+      "goal": 66.67,
+      "path": 33.33
+    },
+    "affect": {
+      "approach": 36.7,
+      "avoidance": 63.3,
+      "positive": 42.31,
+      "negative": 58.96,
+      "level": 3.3
+    },
+    "regulation": {
+      "self_motivation": 45.53,
+      "self_relaxation": 34.84,
+      "action_orientation_failure": 40.21,
+      "action_orientation_decision": 49.19,
+      "volitional_efficiency": 42.89,
+      "stress_resilience": 42.39
+    },
+    "systems": {
+      "extension_memory": 35,
+      "object_recognition": 35.67,
+      "intention_memory": 66.31,
+      "intuitive_behavior": 46.46,
+      "dominant": "intention_memory",
+      "personality_style": "independent"
+    },
+    "insights": {
+      "summary": "Profile characterized by high power drive (63%), avoidance-oriented motivation, analytical thinking preference.",
+      "strengths": ["Strategic influence and leadership orientation", "Systematic, data-driven decision making", "Structured planning and follow-through"],
+      "development_areas": ["Building approach motivation and forward momentum", "Self-regulation and downregulation capacity"]
+    },
+    "descriptions": {
+      "motives": {
+        "power": {"description": "This person has a strong inner drive to influence situations and people around them, whether through their ideas, insights, or personal presence. They naturally take initiative and feel energized when contributing meaningfully to decisions or shaping outcomes in areas that matter to them. They may become frustrated, impatient, or withdraw emotionally if their ideas are ignored, dismissed, or challenged."},
+        "achievement": {"description": "This person sets clear objectives and pursues them methodically. They derive satisfaction from the process of working toward goals, measuring progress against standards they set for themselves."},
+        "contact": {"description": "This person maintains a measured distance in social interactions, preferring quality over quantity in relationships. They are selective about their social investments."}
+      },
+      "affect": {
+        "approach": {"description": "This person tends toward cautious evaluation before acting. They are more avoidance-oriented, carefully assessing risks and potential downsides before committing to action. This creates a deliberate, safety-conscious decision-making style."}
+      },
+      "cognition": {
+        "energy": {"description": "This person leans toward introversion, preferring internal processing and deep reflection over external stimulation. They recharge through solitary thinking."},
+        "focus": {"description": "This person has a strongly analytical mindset, preferring structured, data-driven approaches to understanding situations. They break problems into components and examine them systematically."},
+        "action": {"description": "This person combines analytical rigor with some intuitive capacity, but leans heavily toward systematic analysis. They trust data and structured reasoning over gut instinct."},
+        "attitude": {"description": "This person is goal-oriented with clear objectives, preferring to know the endpoint before mapping the journey. They are motivated by concrete targets and measurable outcomes."}
+      },
+      "levels": "When individuals are at this level, they experience a sense of satisfaction and self-affirmation. They function in a confident manner, though they may struggle with self-regulation under stress, tending toward rumination or withdrawal."
+    }
+  }
+}

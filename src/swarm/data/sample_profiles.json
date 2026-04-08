@@ -1,0 +1,322 @@
+{
+  "Sundar Pichai": {
+    "createdAt": "2026-01-24T17:02:08.924Z",
+    "customerId": "66ea3257e838d18b0cd441b3",
+    "result": {
+      "motives": {
+        "power": 1.33,
+        "achievement": 98.41,
+        "contact": 0.26,
+        "prediction": "L-2",
+        "confidenceScores": {
+          "L-3": 0.00015963177429512143,
+          "A-5": 0.0002919764956459403,
+          "A-1": 0.00013788587239105254,
+          "M-5": 0.00025286999880336225,
+          "L-2": 0.9834432601928711,
+          "A-4": 5.008819789509289e-05,
+          "M-3": 5.381931259762496e-05,
+          "A-3": 6.466088962042704e-05,
+          "M-4": 5.589447755482979e-05,
+          "L-4": 0.00017709305393509567,
+          "A-2": 0.0020590354688465595,
+          "M-1": 0.00010340499284211546,
+          "L-5": 8.171868103090674e-05,
+          "M-2": 0.012841192074120045,
+          "L-1": 0.00022752342920284718
+        }
+      },
+      "emotions": {
+        "approach": 84.85,
+        "avoidance": 15.150000000000006
+      },
+      "preferences": {
+        "external": 90.91,
+        "internal": 9.09,
+        "detail": 3.03,
+        "realization": 96.97,
+        "analytical": 69.7,
+        "holistic": 30.3,
+        "path": 78.79,
+        "goal": 21.21
+      }
+    },
+    "levels": {
+      "level1": 3.03,
+      "level2": 90.91,
+      "level3": 6.06,
+      "level4": 0,
+      "level5": 0
+    },
+    "responses": {
+      "motives": {
+        "power": "You have an inner peace and serenity that allows you to step back and let others take responsibility and lead. You are content to stay in the background and avoid situations that require you to take charge or influence others. However, you must be mindful not to be taken advantage of or to be deprived of your share of resources. When needed, you can use your calming presence to de-escalate conflicts and create peace. Although you would rather not assert yourself, you should learn to set boundaries and stand up for yourself when necessary.",
+        "achievement": "You often feel the need to set yourself lofty, yet achievable performance goals in any situation. High standards are of the utmost importance to you, and you enjoy the challenge of learning something new or taking on demanding tasks. Your behavior is driven by an insatiable curiosity and the desire to constantly improve yourself. Feedback is a key component of your success, and you take great pride in your accomplishments. When difficulties arise, you don't back down but rather double down on your efforts \u2013 perhaps to a fault. Even when you achieve great success, you are often driven to strive for absolute perfection. Others may find this behavior intense and overly serious, and you have little patience for people who don't share your standards. Your working style requires intense focus, and you become easily frustrated by mistakes. Although hard work and dedication are essential to your success, don't forget to make time for other areas of life, such as relationships. Performance isn't always the measure of success, and as a manager, you should learn to delegate and trust those around you. Praise from experts is the only kind you accept, but don't forget to recognize others for their efforts. People like you can make incredible improvements, but remember the Pareto principle: 80% of a task is often good enough.",
+        "contact": "You are a highly independent individual, able to function autonomously and happily alone. Your decisions are rarely swayed by the needs and feelings of others, enabling you to make tough choices without hesitation. You have little regard for harmony or avoiding conflict, which grants you a great sense of inner freedom, yet can be cruel to those around you. You are willing to detach yourself from others and maintain close relationships with only a few, as your freedom is paramount in allowing you to develop without restrictions. People like you can challenge existing norms and views and make necessary changes, however, caution should be exercised not to cause offense or hurt to those around you. You may benefit from embracing a little more closeness and security."
+      },
+      "emotions": "You are an unstoppable force of nature who is driven by their powerful energy and ambition. You have a keen eye for rewards and are not afraid to take risks to pursue your projects with an optimistic outlook. Your enthusiasm is contagious and you are able to inspire others to take on seemingly impossible tasks. Despite your visionary power, you can struggle to turn your ideas into actionable strategies. In order to reach your goals, it is important to take a step back and consider your plans critically. It is better to ensure that you are able to achieve something in the long-term, rather than nothing at all.",
+      "preferences": {
+        "energy": "You have the remarkable talent to easily connect with the people around you and motivate them to achieve their fullest potential. Your magnetic charisma and your enthusiasm for the spotlight can be a double-edged sword, however, as it could come off as superficial to those around you. To further your growth and development, it would be beneficial to take a step back and reflect upon your thoughts and feelings instead of relying on external sources for validation. By creating an environment that is more calming and less distracting, you can open yourself up to inner exploration and find out what truly makes you happy.",
+        "focus": "You possess an incredibly holistic view that encourages the exploration of possibilities. Your unique facility for uncovering opportunities is complemented by your vigilance for potential risks and obstacles. You have an extraordinary creativity that allows you to initiate projects quickly, even if they may not be completed. Take the time to develop a stronger understanding of any inconsistencies and hazards before taking a new project on. Your optimistic attitude and energetic presence can be inspiring, but make sure to consider the details and evaluate the quality of your decisions before taking action. By cultivating a critical eye, you can prevent wasting time and resources on projects that have not been sufficiently evaluated. Gaining feedback is essential to prolonging your joyful energy and ensuring that your enthusiasm is met with thoughtful decisions.",
+        "action": "You possess a remarkable ability to think analytically and logically. However, you find it challenging to empathize with people and situations, or to tap into your own emotions. Consequently, your approach to problem-solving tends to be systematized and analytical, rather than creative and intuitive. Your rational approach and attention to detail are great assets in situations requiring slow, thorough, and rational thinking, but can make it difficult to quickly make decisions or be creative and imaginative. You are rarely able to seamlessly switch between these two competencies.",
+        "attitude": "You are an incredibly versatile person who is able to adapt quickly and flexibly to unforeseen and chaotic situations. Your journey is the destination, and you love to be working on multiple projects at once.  Your tendency to take on multiple tasks simultaneously, however, can lead to difficulty completing goals and can be improved by prioritizing and regularly reviewing goals. On the plus side, your strong actionism allows you to break through stuck structures, challenge traditional thought, and blaze new trails."
+      },
+      "levels": "You possess a deep sense of satisfaction and enjoyment in almost everything you do. Activities that may seem daunting to others are embraced with open arms, as challenges serve as a source of motivation rather than deterrents. In fact, you thrive in the face of adversity, using it as fuel to push yourself further and achieve new heights. Your creative spirit knows no bounds, constantly seeking inspiration and pleasure in the pursuit of your endeavors. This heightened ability to think outside the box enables you to approach problems and projects from unique angles, leading to innovative solutions and breakthroughs. With each accomplishment, there is a profound sense of personal achievement. You revel in the progress you make, recognizing that every step forward, no matter how small, is a step closer to your aspirations. One of your remarkable traits is the ability to find joy in the process itself, not solely fixating on the end result. You appreciate the journey, relishing in the growth and learning that occurs along the way. This attitude ensures that you maintain a positive outlook even when faced with challenges, understanding that the journey is as important as the destination."
+    },
+    "candidateTexts": {
+      "motives": {
+        "power": "Expresses gratitude when influential individuals demonstrate leadership and responsibility. Possesses an inner calmness. Prefers alternative methods of growth over furthering a career. Demonstrates patience when someone is not cooperative or comprehends the task at hand.",
+        "achievement": "Enjoys setting ambitious, concrete, and achievable goals. Requires intense focus to feel comfortable and prefers uninterrupted work. Will go the extra mile to get the job done. Is motivated by objective and optimal problem-solving. Tends to take on too much responsibility. Only accepts praise from legitimate experts or professionals.",
+        "contact": "Is an extremely independent individual. Frequently displays autonomous behavior and is comfortably capable of spending time alone. Rarely allows other people's needs and feelings to impact their decisions. Easily severs ties and chooses their own path. Places a high value on their freedom."
+      },
+      "emotions": "Has an enthusiastic and proactive attitude. Eagerly responds to stimulation. Tackles projects with enthusiasm, determination, and optimism. Maintains an optimistic outlook despite potential obstacles. Can become easily motivated, but also easily discouraged.",
+      "preferences": {
+        "energy": "Possesses an extraordinary ability to inspire and motivate people in their surroundings. Enjoys the limelight and being the focus of attention. Possesses outstanding salesmanship skills. Can sometimes be perceived as superficial due to their strong desire for recognition.",
+        "focus": "Possesses an exceptional ability to recognize potential opportunities. Demonstrates remarkable creativity when resolving issues. Exudes an upbeat energy that invigorates and encourages spontaneous problem-solving. May struggle with analytical tasks requiring meticulous attention to detail.",
+        "action": "Possesses a remarkable capacity for analytical and logical thinking. Struggles to empathize with people and situations. Frequently devotes their energy to planning. Their greatest strengths lie in being a rational, organized thinker, yet they find it hard to be imaginative and generate novel ideas.",
+        "attitude": "Possesses a highly adaptable and flexible personality. Capable of efficiently dealing with unexpected and chaotic situations. Especially enjoys working on multiple projects concurrently. May become easily distracted from the original objectives due to juggling a multitude of tasks simultaneously."
+      },
+      "levels": "This individual derives significant satisfaction and delight from their job. Encounters challenges as sources of motivation rather than obstacles. Possesses a profound sense of inspiration regarding current and future endeavors. Experiences a sense of personal fulfillment and responsibility. Extrinsic and intrinsic motivations are both important. Displays adeptness in thinking innovatively, showcasing creativity and inspiration. Social standing or team role might serve as motivating factors"
+    }
+  },
+  "Alex Karp": {
+    "createdAt": "2026-01-25T15:53:53.466Z",
+    "customerId": "66ea3257e838d18b0cd441b3",
+    "result": {
+      "motives": {
+        "power": 99.23,
+        "achievement": 0.62,
+        "contact": 0.15,
+        "prediction": "M-3",
+        "confidenceScores": {
+          "L-3": 0.004362168256193399,
+          "A-5": 9.072063403436914e-05,
+          "A-1": 7.843597995815799e-05,
+          "M-5": 0.00039414482307620347,
+          "L-2": 0.00014796416508033872,
+          "A-4": 0.00013883439532946795,
+          "M-3": 0.9534673094749451,
+          "A-3": 0.0007160753011703491,
+          "M-4": 0.036580029875040054,
+          "L-4": 0.0015406719176098704,
+          "A-2": 0.0004912842414341867,
+          "M-1": 0.0004180151445325464,
+          "L-5": 0.00011102918506367132,
+          "M-2": 0.0014245028141885996,
+          "L-1": 3.884207035298459e-05
+        }
+      },
+      "emotions": {
+        "approach": 50,
+        "avoidance": 50
+      },
+      "preferences": {
+        "external": 50,
+        "internal": 50,
+        "detail": 0,
+        "realization": 100,
+        "analytical": 50,
+        "holistic": 50,
+        "path": 50,
+        "goal": 50
+      }
+    },
+    "levels": {
+      "level1": 0,
+      "level2": 25,
+      "level3": 75,
+      "level4": 0,
+      "level5": 0
+    },
+    "responses": {
+      "motives": {
+        "power": "You have a strong desire to influence the thoughts, actions, and feelings of others, and you are willing to take on the responsibility of leading people and organizations. You are highly motivated to guide, teach, convince, and persuade others in certain areas. You take the initiative to promote your ideas and set goals that will motivate people to take action. You give advice and support to others, even if it is not requested. You become frustrated when people do not cooperate with you and are highly offended by criticism. If someone tries to influence you or control you, you become resistant and can become quite aggressive or dominant. You have a strong sense of pride and may prioritize your own status over factual and objective criteria. You acknowledge hierarchy, but only if you can see the potential for you to rise in it. You have an unwavering dedication to reaching the top and will not tolerate anyone above you. With great determination and an uncanny ability to recognize opportunities for you to gain influence, you can make real changes and help people break out of their comfort zone.",
+        "achievement": "Achieving success in your favorite areas, such as social relationships, is important to you, but you may not find much satisfaction in reaching demanding standards of excellence. When faced with a difficult task, you often give up quickly or find someone to help you or even do the work for you. You have a knack for conserving your resources, which can make you appear calm, but also manipulative. As a supervisor, you need to make sure your employees see you as competent and professional, while also making sure they don't feel exploited. Unfortunately, very little curiosity or desire to improve yourself and your performance will drive you. Although this can have advantages, it can also lead to frustration for you and those around you. However, one big advantage of your attitude towards life is that you don't always view the world through a performance-based lens.",
+        "contact": "You are a highly independent individual, able to function autonomously and happily alone. Your decisions are rarely swayed by the needs and feelings of others, enabling you to make tough choices without hesitation. You have little regard for harmony or avoiding conflict, which grants you a great sense of inner freedom, yet can be cruel to those around you. You are willing to detach yourself from others and maintain close relationships with only a few, as your freedom is paramount in allowing you to develop without restrictions. People like you can challenge existing norms and views and make necessary changes, however, caution should be exercised not to cause offense or hurt to those around you. You may benefit from embracing a little more closeness and security."
+      },
+      "emotions": "You possess a remarkable balance of approach and avoidance tendencies, enabling you to act decisively with your desired outcome in mind. Your attention to detail allows you to identify potential risks and obstacles, which you cleverly maneuver around. Your actions are characterized by both constructiveness and pragmatism, while your ability to balance positive and negative emotions helps you remain persistent and resilient. You take failure and criticism in stride, learning from your mistakes and embracing success with healthy optimism.",
+      "preferences": {
+        "energy": "You are an incredible balance artist, combining your art of representation with your internal reflections to bring positive energy and depth to those around you. You thrive both on stage and in conceptualizing in peace, and have a remarkable ability to be aware of the world around you while maintaining a connection to your own thoughts and feelings. Selling products you are passionate about is easy for you, but you refuse to compromise your standards for quick sales. You need a stimulating environment to both retreat and interact with others, and your motivation comes from a combination of external and internal sources of inspiration.",
+        "focus": "You possess an incredibly holistic view that encourages the exploration of possibilities. Your unique facility for uncovering opportunities is complemented by your vigilance for potential risks and obstacles. You have an extraordinary creativity that allows you to initiate projects quickly, even if they may not be completed. Take the time to develop a stronger understanding of any inconsistencies and hazards before taking a new project on. Your optimistic attitude and energetic presence can be inspiring, but make sure to consider the details and evaluate the quality of your decisions before taking action. By cultivating a critical eye, you can prevent wasting time and resources on projects that have not been sufficiently evaluated. Gaining feedback is essential to prolonging your joyful energy and ensuring that your enthusiasm is met with thoughtful decisions.",
+        "action": "You have a special gift for blending logic and emotion. You can think both analytically and empathically, and your approach to problem-solving is both methodical and holistic. Your actions are informed by your life experience and intuition, while still being guided by reason. You are able to think on a grand scale while also paying attention to small details. You are creative, yet organized, able to quickly shift between rational and emotional thinking depending on the situation. This makes you especially suited to handle tasks that require both careful deliberation and swift, creative decisions.",
+        "attitude": "You possess a unique ability to combine structure and improvisation in a balanced manner. On one hand, you are able to set goals and pursue them methodically, while on the other you can adjust your plans when necessary. You cope well with uncertainty, but also value clarity and commitment, and your decisions are thoughtful and well-considered. Your inner balance enables you to bring together optimism and critical thinking. You are capable of tackling projects that require both organizational and impromptu skills, and your flexibility allows you to learn, implement, and question decisions simultaneously."
+      },
+      "levels": "You find a deep sense of satisfaction and self-affirmation, knowing that you possess the ability to navigate obstacles and adapt to changes that come your way. You recognize that life is filled with challenging situations, and you bravely confront them, even though they might evoke a range of feelings within you. The lingering impact of past experiences on your present emotions is something you are intimately aware of. Memories have the power to shape your emotional landscape, and at times, they may bring forth feelings of upset or anger. Nevertheless, you do not shy away from facing these emotions, understanding that acknowledging and processing them is a crucial part of healing and growth. Your capacity to handle unexpected or traumatic experiences showcases the depth of your inner strength. Instead of being overwhelmed, you rise to the occasion, exhibiting resilience in the face of difficult circumstances. Your ability to confront and navigate through these challenges demonstrates your unwavering determination and courage. One of your remarkable traits is the transformation of past experiences into valuable lessons. You do not let your history define you; instead, you draw wisdom from it, converting hardships into opportunities for growth and self-discovery. This process of transformation empowers you to approach life with a newfound sense of understanding and maturity."
+    },
+    "candidateTexts": {
+      "motives": {
+        "power": "Demonstrates a strong desire to lead teams and organizations. Understands the importance of hierarchical structures and strives to move up in them. Values prestige and status highly and chooses projects accordingly. Strives to guide, educate, persuade, and influence others. Can become frustrated when others are not cooperative.",
+        "achievement": "Sets achievable goals. May become demotivated when faced with large or complex tasks. Understands their limits to avoid burnout. Is usually not interested in fact-based feedback. Lacks performance-oriented outlook.",
+        "contact": "Is an extremely independent individual. Frequently displays autonomous behavior and is comfortably capable of spending time alone. Rarely allows other people's needs and feelings to impact their decisions. Easily severs ties and chooses their own path. Places a high value on their freedom."
+      },
+      "emotions": "Possesses the ability to readily adapt between approaching and avoiding tendencies. Easily able to act decisively while remaining focused on the goal. Aware of potential risks, and thoughtfully considers whether the goal is achievable. Particularly known for their constructive and pragmatic mindset. Views failure and criticism constructively. Capable of switching between positive and negative feelings, allowing for both persistence and contentment.",
+      "preferences": {
+        "energy": "Exudes positivity and possesses an in-depth understanding of the matter. Enjoys both performing and conceptualizing, as well as having moments of reflection. Able to effectively promote products they are passionate about. Thrives in an environment that offers both social interaction and personal space.",
+        "focus": "Possesses an exceptional ability to recognize potential opportunities. Demonstrates remarkable creativity when resolving issues. Exudes an upbeat energy that invigorates and encourages spontaneous problem-solving. May struggle with analytical tasks requiring meticulous attention to detail.",
+        "action": "Possesses strong analytical and logical thinking skills, as well as the ability to empathize with others in various situations. Prefers to see the big picture while taking the time to plan out details. Demonstrates creative thinking and is not afraid to come up with new ideas. Enjoys working with a plan and approaching tasks rationally.",
+        "attitude": "Possesses the ability to structure themselves well, set specific goals, and conscientiously pursue them. Maintains the flexibility to deviate from plans if the situation requires it. Exhibits comfort with uncertainty and unpredictability. Prefers clear tasks and binding agreements."
+      },
+      "levels": "This individual experiences self-validation. Demonstrates the capacity to adjust to changes, discover solutions, and remain at ease. Various emotions, both positive and negative, might emerge in response to challenges. Displays resilience when facing demanding situations. Proficiently translates past experiences into valuable knowledge and skills. Past encounters have the potential to influence the present through emotions, fears, or behavioral patterns. Adjusting to new circumstances might necessitate some time."
+    }
+  },
+  "Elon Musk": {
+    "createdAt": "2026-02-04T22:59:00.196Z",
+    "customerId": "66ea3257e838d18b0cd441b3",
+    "result": {
+      "motives": {
+        "power": 83.61,
+        "achievement": 14.73,
+        "contact": 1.66,
+        "prediction": "M-2",
+        "confidenceScores": {
+          "L-3": 0.005049482919275761,
+          "A-5": 0.0012039560824632645,
+          "A-1": 0.0003509900998324156,
+          "M-5": 0.0008682810585014522,
+          "L-2": 0.13990682363510132,
+          "A-4": 0.00017774653679225594,
+          "M-3": 0.012826110236346722,
+          "A-3": 0.0008287944947369397,
+          "M-4": 0.0009487728821113706,
+          "L-4": 0.0013835582649335265,
+          "A-2": 0.014049139805138111,
+          "M-1": 0.00255754915997386,
+          "L-5": 0.00045392391621135175,
+          "M-2": 0.8189197778701782,
+          "L-1": 0.00047509363503195345
+        }
+      },
+      "emotions": {
+        "approach": 70,
+        "avoidance": 30
+      },
+      "preferences": {
+        "external": 60,
+        "internal": 40,
+        "detail": 0,
+        "realization": 100,
+        "analytical": 70,
+        "holistic": 30,
+        "path": 80,
+        "goal": 20
+      }
+    },
+    "levels": {
+      "level1": 0,
+      "level2": 60,
+      "level3": 40,
+      "level4": 0,
+      "level5": 0
+    },
+    "responses": {
+      "motives": {
+        "power": "You have an innate drive to influence and lead others in their actions, thoughts, and feelings. You strive to maintain a sense of calmness and strength in order to convince people of your ideas and opinions. Your ambition and drive to reach the highest level of success is unrivaled and you often take initiative without being asked. Though you may appear dominant and powerful, you are equally vulnerable to criticism and belittlement. You are highly motivated when you can lead, instruct, convince, teach or influence others and are often eager to offer advice and support. You recognize hierarchical structures, but only when you see the opportunity to progress in them. Your goal is to reach the highest level of success and you are relentless in pursuing this dream.",
+        "achievement": "You are adept at balancing your own needs with those of others, and enjoy achieving success in social relationships. While you may not seek out demanding standards of excellence, you are still capable of setting ambitious yet realistic goals for yourself. You are also capable of delegating tasks to others, as well as recognizing the importance of not being perceived as a free rider. Despite this, you lack a certain curiosity or desire to push yourself to improve and develop. On the plus side, this attitude can bring a much-needed change of perspective to any situation.",
+        "contact": "You are a highly independent individual, able to function autonomously and happily alone. Your decisions are rarely swayed by the needs and feelings of others, enabling you to make tough choices without hesitation. You have little regard for harmony or avoiding conflict, which grants you a great sense of inner freedom, yet can be cruel to those around you. You are willing to detach yourself from others and maintain close relationships with only a few, as your freedom is paramount in allowing you to develop without restrictions. People like you can challenge existing norms and views and make necessary changes, however, caution should be exercised not to cause offense or hurt to those around you. You may benefit from embracing a little more closeness and security."
+      },
+      "emotions": "You are a doer and a visionary! Your ambition and optimism drive you to pursue your plans with intense commitment, often ignoring potential obstacles and risks. Your tendency to react positively to rewards can make it difficult to stay focused and solve difficult tasks. However, it is easy to be carried away with your enthusiasm and even attempt seemingly hopeless projects. To ensure you can realize your goals in the long run, it is important to reflect on your plans and goals realistically and critically. Remember: it's better to realize something than nothing at all!",
+      "preferences": {
+        "energy": "You have an impressive ability to win over, fascinate, and inspire those around you. You are an extroverted sales talent who loves being the center of attention and relishes in the effect they can have on others. To ensure you are operating at your highest capacity, you take time to reflect and stay up-to-date on the latest trends and developments. To stay motivated, you need external incentives such as recognition and praise, as well as moments of calm and self-reflection. The ideal working environment for you is one that allows you to have meaningful interactions with people and still have the time and space to rest and reflect.",
+        "focus": "You possess an incredibly holistic view that encourages the exploration of possibilities. Your unique facility for uncovering opportunities is complemented by your vigilance for potential risks and obstacles. You have an extraordinary creativity that allows you to initiate projects quickly, even if they may not be completed. Take the time to develop a stronger understanding of any inconsistencies and hazards before taking a new project on. Your optimistic attitude and energetic presence can be inspiring, but make sure to consider the details and evaluate the quality of your decisions before taking action. By cultivating a critical eye, you can prevent wasting time and resources on projects that have not been sufficiently evaluated. Gaining feedback is essential to prolonging your joyful energy and ensuring that your enthusiasm is met with thoughtful decisions.",
+        "action": "You possess a remarkable ability to think analytically and logically. However, you find it challenging to empathize with people and situations, or to tap into your own emotions. Consequently, your approach to problem-solving tends to be systematized and analytical, rather than creative and intuitive. Your rational approach and attention to detail are great assets in situations requiring slow, thorough, and rational thinking, but can make it difficult to quickly make decisions or be creative and imaginative. You are rarely able to seamlessly switch between these two competencies.",
+        "attitude": "You are an incredibly versatile person who is able to adapt quickly and flexibly to unforeseen and chaotic situations. Your journey is the destination, and you love to be working on multiple projects at once.  Your tendency to take on multiple tasks simultaneously, however, can lead to difficulty completing goals and can be improved by prioritizing and regularly reviewing goals. On the plus side, your strong actionism allows you to break through stuck structures, challenge traditional thought, and blaze new trails."
+      },
+      "levels": "You possess a deep sense of satisfaction and enjoyment in almost everything you do. Activities that may seem daunting to others are embraced with open arms, as challenges serve as a source of motivation rather than deterrents. In fact, you thrive in the face of adversity, using it as fuel to push yourself further and achieve new heights. Your creative spirit knows no bounds, constantly seeking inspiration and pleasure in the pursuit of your endeavors. This heightened ability to think outside the box enables you to approach problems and projects from unique angles, leading to innovative solutions and breakthroughs. With each accomplishment, there is a profound sense of personal achievement. You revel in the progress you make, recognizing that every step forward, no matter how small, is a step closer to your aspirations. One of your remarkable traits is the ability to find joy in the process itself, not solely fixating on the end result. You appreciate the journey, relishing in the growth and learning that occurs along the way. This attitude ensures that you maintain a positive outlook even when faced with challenges, understanding that the journey is as important as the destination."
+    },
+    "candidateTexts": {
+      "motives": {
+        "power": "Demonstrates an eagerness to lead groups of people or organizations. Is highly motivated to lead, instruct, persuade, train or influence others. Is committed to setting goals and motivating others to do the same. Easily chooses the most ambitious projects among all possibilities. Is easily agitated when others criticize or belittle them. Becomes impatient when others are not cooperative.",
+        "achievement": "Sets attainable goals. Can lose motivation in the face of difficult, multi-level tasks. Is aware of how much work is necessary in order to avoid burnout. Is usually not interested in fact-based feedback. Is rarely looking at the world from a performance perspective.",
+        "contact": "Is an extremely independent individual. Frequently displays autonomous behavior and is comfortably capable of spending time alone. Rarely allows other people's needs and feelings to impact their decisions. Easily severs ties and chooses their own path. Places a high value on their freedom."
+      },
+      "emotions": "Demonstrates a proactive attitude and is eager to take action. Quickly responds to stimulation with enthusiasm. Has great resilience, but may overlook potential risks. Tends to ignore possible impediments and hazards. Motivation levels can fluctuate rapidly.",
+      "preferences": {
+        "energy": "Has the ability to captivate, excite, and motivate those around them. Enjoys being the focus of attention. Possesses a natural aptitude for sales. Ideal working conditions involve interacting with people and providing periods of rest and reflection.",
+        "focus": "Possesses an exceptional ability to recognize potential opportunities. Demonstrates remarkable creativity when resolving issues. Exudes an upbeat energy that invigorates and encourages spontaneous problem-solving. May struggle with analytical tasks requiring meticulous attention to detail.",
+        "action": "Possesses a remarkable capacity for analytical and logical thinking. Struggles to empathize with people and situations. Frequently devotes their energy to planning. Their greatest strengths lie in being a rational, organized thinker, yet they find it hard to be imaginative and generate novel ideas.",
+        "attitude": "Possesses a highly adaptable and flexible personality. Capable of efficiently dealing with unexpected and chaotic situations. Especially enjoys working on multiple projects concurrently. May become easily distracted from the original objectives due to juggling a multitude of tasks simultaneously."
+      },
+      "levels": "This individual derives significant satisfaction and delight from their job. Encounters challenges as sources of motivation rather than obstacles. Possesses a profound sense of inspiration regarding current and future endeavors. Experiences a sense of personal fulfillment and responsibility. Extrinsic and intrinsic motivations are both important. Displays adeptness in thinking innovatively, showcasing creativity and inspiration. Social standing or team role might serve as motivating factors"
+    }
+  },
+  "Theodore Sarandos": {
+    "createdAt": "2026-02-05T00:36:28.214Z",
+    "customerId": "66ea3257e838d18b0cd441b3",
+    "result": {
+      "motives": {
+        "power": 60.45,
+        "achievement": 39.31,
+        "contact": 0.24,
+        "prediction": "M-3",
+        "confidenceScores": {
+          "L-3": 0.3894643485546112,
+          "A-5": 0.0001279502030229196,
+          "A-1": 5.784165477962233e-05,
+          "M-5": 0.00038585567381232977,
+          "L-2": 0.0016129481373354793,
+          "A-4": 0.00010710344213293865,
+          "M-3": 0.6022467613220215,
+          "A-3": 0.0019250320037826896,
+          "M-4": 0.0007348284125328064,
+          "L-4": 0.0016622967086732388,
+          "A-2": 0.00016402266919612885,
+          "M-1": 0.00020269080414436758,
+          "L-5": 0.0001626568555366248,
+          "M-2": 0.0009517306461930275,
+          "L-1": 0.00019389546650927514
+        }
+      },
+      "emotions": {
+        "approach": 60,
+        "avoidance": 40
+      },
+      "preferences": {
+        "external": 60,
+        "internal": 40,
+        "detail": 2.86,
+        "realization": 97.14,
+        "analytical": 62.86,
+        "holistic": 37.14,
+        "path": 60,
+        "goal": 40
+      }
+    },
+    "levels": {
+      "level1": 0,
+      "level2": 45.71,
+      "level3": 28.57,
+      "level4": 20,
+      "level5": 5.71
+    },
+    "responses": {
+      "motives": {
+        "power": "You have a strong desire to influence others\u2019 thoughts, feelings, and actions. You take the initiative, actively reach out to others, and try to persuade them of your beliefs. You\u2019re also skilled at setting goals and motivating others to take appropriate, goal-oriented actions. You willingly offer advice and support, and are able to recognize when people need recognition or praise. Ultimately, you seek cooperation from those around you, while remaining open to criticism and influence. Although you understand the importance of hierarchies and the need for someone to be in charge, you\u2019re also eager to take on the responsibility of leadership.",
+        "achievement": "As a supervisor, you should strive to set yourself ambitious yet realistic goals that challenge you, while also being mindful of the fact that success in social relationships is equally important. When faced with difficult tasks, you tend to delegate, making you appear surprisingly calm - though this can be slightly unprofessional. Despite the advantages of this attitude, it is important to remember that you are a role model and must show dedication to difficult and strenuous tasks in the work environment. Even though asking for help and delegating is important, you must ensure that employees take you seriously. Curiosity and the desire to improve yourself and your own performance should be the drivers for setting and achieving goals, as this adds a positive outlook on the world beyond a performance perspective.",
+        "contact": "You are a highly independent individual, able to function autonomously and happily alone. Your decisions are rarely swayed by the needs and feelings of others, enabling you to make tough choices without hesitation. You have little regard for harmony or avoiding conflict, which grants you a great sense of inner freedom, yet can be cruel to those around you. You are willing to detach yourself from others and maintain close relationships with only a few, as your freedom is paramount in allowing you to develop without restrictions. People like you can challenge existing norms and views and make necessary changes, however, caution should be exercised not to cause offense or hurt to those around you. You may benefit from embracing a little more closeness and security."
+      },
+      "emotions": "You have an admirable balance of approach and avoidance orientation. Your positive reactions to rewards enable you to approach plans with unwavering commitment and optimism. However, your tendency to overlook potential dangers and signals of failure can be a hindrance. You have the strength and vision necessary to make your plans a reality, however, it is important to critically reflect on your plans and goals in order to make sure you are able to implement them in the long term. You have the ability to inspire and motivate others to tackle projects that may not be guaranteed to succeed. By taking the time to plan and reflect on your plans and goals, you will be able to fulfill your visions and bring your plans to fruition.",
+      "preferences": {
+        "energy": "You have an impressive ability to win over, fascinate, and inspire those around you. You are an extroverted sales talent who loves being the center of attention and relishes in the effect they can have on others. To ensure you are operating at your highest capacity, you take time to reflect and stay up-to-date on the latest trends and developments. To stay motivated, you need external incentives such as recognition and praise, as well as moments of calm and self-reflection. The ideal working environment for you is one that allows you to have meaningful interactions with people and still have the time and space to rest and reflect.",
+        "focus": "You possess an incredibly holistic view that encourages the exploration of possibilities. Your unique facility for uncovering opportunities is complemented by your vigilance for potential risks and obstacles. You have an extraordinary creativity that allows you to initiate projects quickly, even if they may not be completed. Take the time to develop a stronger understanding of any inconsistencies and hazards before taking a new project on. Your optimistic attitude and energetic presence can be inspiring, but make sure to consider the details and evaluate the quality of your decisions before taking action. By cultivating a critical eye, you can prevent wasting time and resources on projects that have not been sufficiently evaluated. Gaining feedback is essential to prolonging your joyful energy and ensuring that your enthusiasm is met with thoughtful decisions.",
+        "action": "You possess a unique combination of analytical and logical reasoning, as well as the capacity for understanding, feeling, and connecting with people and situations. Your decision-making process is often based on synthesis and networking, but you are able to analyze and break down a problem into its components. Your actions are informed by life experience and intuition, but always guided by reason. You have the ability to think creatively and come up with innovative solutions, while also being skilled in planned work and rational thinking. You are adept at seamlessly transitioning between both approaches, allowing you to better tackle any situation, whether it requires quick decisions or slow and thorough rational thinking.",
+        "attitude": "You are an incredibly adaptable and flexible person, easily able to deal with unforeseen and even chaotic situations. Your motto of 'the journey is the destination' serves you well, allowing you to work on multiple projects at once with a sense of purpose. You realize that it is important to focus on the goals that are important to you and to review them regularly, while also allowing structure into your life in order to maintain a balance between actionism and constructive action. Thanks to your adaptability and willingness to explore new paths, you are well-equipped to break up outdated structures and question outdated thinking. "
+      },
+      "levels": "You possess a deep sense of satisfaction and enjoyment in almost everything you do. Activities that may seem daunting to others are embraced with open arms, as challenges serve as a source of motivation rather than deterrents. In fact, you thrive in the face of adversity, using it as fuel to push yourself further and achieve new heights. Your creative spirit knows no bounds, constantly seeking inspiration and pleasure in the pursuit of your endeavors. This heightened ability to think outside the box enables you to approach problems and projects from unique angles, leading to innovative solutions and breakthroughs. With each accomplishment, there is a profound sense of personal achievement. You revel in the progress you make, recognizing that every step forward, no matter how small, is a step closer to your aspirations. One of your remarkable traits is the ability to find joy in the process itself, not solely fixating on the end result. You appreciate the journey, relishing in the growth and learning that occurs along the way. This attitude ensures that you maintain a positive outlook even when faced with challenges, understanding that the journey is as important as the destination."
+    },
+    "candidateTexts": {
+      "motives": {
+        "power": "In many circumstances, they are adept at influencing the actions, thoughts, and feelings of others. Is skilled at setting goals and motivating others to take action that is aligned with their objectives. Is attuned to when people require recognition and appreciation. Is able to withstand criticism and pressure from others, yet ensure that the hierarchy is respected.",
+        "achievement": "Sometimes sets specific, ambitious, yet attainable goals. Can lose motivation when faced with complicated and lengthy tasks. Is usually not interested in honest, factual feedback. Their commitment to self-improvement and desire to succeed won't be fueled by curiosity alone.",
+        "contact": "Is an extremely independent individual. Frequently displays autonomous behavior and is comfortably capable of spending time alone. Rarely allows other people's needs and feelings to impact their decisions. Easily severs ties and chooses their own path. Places a high value on their freedom."
+      },
+      "emotions": "Possesses an action-oriented approach and attitude. Responds enthusiastically to stimulation. Demonstrates resilience, though can overlook potential risks and signs of potential failure. Executes plans with determination and optimism.",
+      "preferences": {
+        "energy": "Has the ability to captivate, excite, and motivate those around them. Enjoys being the focus of attention. Possesses a natural aptitude for sales. Ideal working conditions involve interacting with people and providing periods of rest and reflection.",
+        "focus": "Possesses an exceptional ability to recognize potential opportunities. Demonstrates remarkable creativity when resolving issues. Exudes an upbeat energy that invigorates and encourages spontaneous problem-solving. May struggle with analytical tasks requiring meticulous attention to detail.",
+        "action": "Demonstrates the capacity to think analytically and logically, while also exhibiting empathy towards people and situations. Possesses the ability to consider the big picture, while also investing energy into detailed planning. Exercises creative thought to generate new ideas.",
+        "attitude": "Possesses the ability to quickly adapt to changing situations and remain flexible. Remains composed and composed in chaotic and unpredictable circumstances. Enjoys working on multiple projects concurrently. Has a tendency to lose focus or not complete projects when trying to juggle multiple tasks."
+      },
+      "levels": "This individual derives significant satisfaction and delight from their job. Encounters challenges as sources of motivation rather than obstacles. Possesses a profound sense of inspiration regarding current and future endeavors. Experiences a sense of personal fulfillment and responsibility. Extrinsic and intrinsic motivations are both important. Displays adeptness in thinking innovatively, showcasing creativity and inspiration. Social standing or team role might serve as motivating factors"
+    }
+  }
+}

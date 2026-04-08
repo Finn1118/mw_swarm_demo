@@ -1,0 +1,5 @@
+{
+  "scenario": "Regulators in the U.S. and EU signal coordinated antitrust investigations into AI foundation model providers, citing market concentration concerns. Simultaneously, a leading open-source AI consortium releases a model matching GPT-5-class performance at 1/10th the cost. Major enterprise customers begin demanding transparent AI supply chain guarantees and threatening to diversify providers.",
+  "executives": ["Sundar Pichai", "Alex Karp", "Dario Amodei", "Sam Altman"],
+  "num_rounds": 3
+}
