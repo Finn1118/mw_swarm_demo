@@ -2,6 +2,8 @@
 
 import asyncio
 import json
+import re
+from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
@@ -10,6 +12,7 @@ from pydantic import BaseModel
 from swarm import store
 from swarm.knowledge.wikipedia import get_wiki_context
 from swarm.output.formatter import summarize_simulation
+from swarm.output.report import REPORTS_DIR
 from swarm.simulation.agent import SimAgent
 from swarm.simulation.engine import run_simulation, run_simulation_stream
 
@@ -25,6 +28,35 @@ class SimulationRequest(BaseModel):
 def _sse_event(event: str, data: dict) -> str:
     payload = json.dumps(data, ensure_ascii=True)
     return f"event: {event}\ndata: {payload}\n\n"
+
+
+def _safe_report_path(filename: str) -> Path:
+    if "/" in filename or "\\" in filename or not filename.endswith(".md"):
+        raise HTTPException(status_code=400, detail="Invalid report filename")
+    report_path = (REPORTS_DIR / filename).resolve()
+    reports_root = REPORTS_DIR.resolve()
+    if report_path.parent != reports_root:
+        raise HTTPException(status_code=400, detail="Invalid report filename")
+    return report_path
+
+
+def _report_metadata(path: Path) -> dict:
+    content = path.read_text(encoding="utf-8")
+    sim_id_match = re.search(r"\*\*ID:\*\*\s*`([^`]+)`", content)
+    rounds_match = re.search(r"\*\*Rounds:\*\*\s*([0-9]+)", content)
+    scenario_match = re.search(r"## Scenario\s+(.+?)\s+---", content, re.DOTALL)
+    scenario_preview = ""
+    if scenario_match:
+        scenario_preview = " ".join(scenario_match.group(1).strip().split())[:220]
+    return {
+        "filename": path.name,
+        "path": str(path),
+        "simulation_id": sim_id_match.group(1) if sim_id_match else "",
+        "rounds": int(rounds_match.group(1)) if rounds_match else 0,
+        "scenario_preview": scenario_preview,
+        "created_at": path.stat().st_mtime,
+        "size_bytes": path.stat().st_size,
+    }
 
 
 async def _build_agents_for_request(req: SimulationRequest) -> tuple[list[SimAgent], dict]:
@@ -148,6 +180,25 @@ async def list_simulations():
         }
         for sid, sim in store.simulations.items()
     }
+
+
+@router.get("/reports")
+async def list_report_files():
+    """List persisted markdown simulation reports from data/simulations."""
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    report_files = sorted(REPORTS_DIR.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return {"reports": [_report_metadata(path) for path in report_files]}
+
+
+@router.get("/reports/{filename}")
+async def get_report_file(filename: str):
+    """Read a specific markdown simulation report."""
+    report_path = _safe_report_path(filename)
+    if not report_path.exists():
+        raise HTTPException(status_code=404, detail="Report not found")
+    metadata = _report_metadata(report_path)
+    metadata["content"] = report_path.read_text(encoding="utf-8")
+    return metadata
 
 
 @router.get("/{simulation_id}")

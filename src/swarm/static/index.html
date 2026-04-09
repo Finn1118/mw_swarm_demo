@@ -249,6 +249,51 @@
       align-items: center;
     }
 
+    .history-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .history-list {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #111824;
+      max-height: 420px;
+      overflow: auto;
+    }
+    .history-item {
+      width: 100%;
+      text-align: left;
+      border: 0;
+      border-bottom: 1px solid #253144;
+      background: transparent;
+      color: var(--text);
+      padding: 10px;
+      cursor: pointer;
+    }
+    .history-item:hover { background: #162133; }
+    .history-item.active { background: #1c2a3b; }
+    .history-title { font-weight: 600; font-size: 0.9rem; }
+    .history-meta { color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+    .history-preview {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #111824;
+      padding: 10px;
+      min-height: 420px;
+      max-height: 420px;
+      overflow: auto;
+    }
+    .history-preview pre {
+      white-space: pre-wrap;
+      margin: 0;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.83rem;
+      line-height: 1.4;
+      color: #d9e1ea;
+    }
+
     a { color: #8ac1ff; }
     ul { margin: 8px 0 8px 20px; }
     p { margin: 6px 0; line-height: 1.45; }
@@ -268,6 +313,8 @@
 
     @media (max-width: 840px) {
       .controls { grid-template-columns: 1fr; }
+      .history-grid { grid-template-columns: 1fr; }
+      .history-preview { min-height: 280px; max-height: 360px; }
     }
   </style>
 </head>
@@ -324,6 +371,18 @@
         <span id="completionMeta" class="mini"></span>
       </div>
     </section>
+
+    <section id="historyPanel" class="panel">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+        <h2 style="margin:0;">Past Simulations</h2>
+        <button id="refreshHistoryBtn" class="btn secondary" type="button">Refresh</button>
+      </div>
+      <div class="mini">Browse markdown reports saved in <code>data/simulations</code>.</div>
+      <div class="history-grid">
+        <div id="historyList" class="history-list"></div>
+        <div id="historyPreview" class="history-preview mini">Loading reports...</div>
+      </div>
+    </section>
   </div>
 
   <script>
@@ -337,6 +396,8 @@
       totalRounds: 0,
       simId: "",
       profileCardByName: {},
+      reports: [],
+      selectedReport: "",
     };
 
     const setupPanel = document.getElementById("setupPanel");
@@ -358,6 +419,9 @@
     const completionMeta = document.getElementById("completionMeta");
     const reportLink = document.getElementById("reportLink");
     const runAnotherBtn = document.getElementById("runAnotherBtn");
+    const refreshHistoryBtn = document.getElementById("refreshHistoryBtn");
+    const historyList = document.getElementById("historyList");
+    const historyPreview = document.getElementById("historyPreview");
 
     roundsInput.addEventListener("input", () => { roundsValue.textContent = roundsInput.value; });
     scenarioInput.addEventListener("input", updateRunState);
@@ -366,6 +430,7 @@
       showSetup();
       updateRunState();
     });
+    refreshHistoryBtn.addEventListener("click", loadPastReports);
 
     function showError(message) {
       setupError.textContent = message;
@@ -458,6 +523,11 @@
       return `file:///${encodeURI(normalized)}`;
     }
 
+    function formatTs(epochSeconds) {
+      if (!epochSeconds) return "";
+      return new Date(epochSeconds * 1000).toLocaleString();
+    }
+
     function motiveBar(label, value) {
       const clamped = Math.max(0, Math.min(100, Number(value || 0)));
       return `
@@ -491,6 +561,81 @@
           updateRunState();
         });
         execGrid.appendChild(card);
+      }
+    }
+
+    function renderHistoryList() {
+      historyList.innerHTML = "";
+      if (!state.reports.length) {
+        historyList.innerHTML = `<div class="mini" style="padding:10px;">No saved reports yet.</div>`;
+        historyPreview.textContent = "Run a simulation to generate your first report.";
+        return;
+      }
+      for (const report of state.reports) {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "history-item" + (state.selectedReport === report.filename ? " active" : "");
+        item.innerHTML = `
+          <div class="history-title">${escapeHtml(report.filename)}</div>
+          <div class="history-meta">${escapeHtml(formatTs(report.created_at))} - rounds: ${Number(report.rounds || 0)}</div>
+          <div class="history-meta">${escapeHtml(report.simulation_id || "")}</div>
+          <div class="history-meta">${escapeHtml(report.scenario_preview || "")}</div>
+        `;
+        item.addEventListener("click", () => openPastReport(report.filename));
+        historyList.appendChild(item);
+      }
+    }
+
+    async function openPastReport(filename) {
+      state.selectedReport = filename;
+      renderHistoryList();
+      historyPreview.textContent = "Loading report...";
+      try {
+        const response = await fetch(`/api/simulations/reports/${encodeURIComponent(filename)}`);
+        if (!response.ok) {
+          const text = await response.text();
+          throw new Error(text || `HTTP ${response.status}`);
+        }
+        const report = await response.json();
+        historyPreview.innerHTML = `
+          <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:8px;">
+            <div>
+              <div class="history-title">${escapeHtml(report.filename || filename)}</div>
+              <div class="history-meta">${escapeHtml(formatTs(report.created_at))}</div>
+            </div>
+            <a class="btn secondary" href="${toFileUrl(report.path || "")}" target="_blank" rel="noopener noreferrer">Open File</a>
+          </div>
+          <pre>${escapeHtml(report.content || "")}</pre>
+        `;
+      } catch (err) {
+        historyPreview.innerHTML = `<div class="error">Failed to load report:\n${escapeHtml(String(err.message || err))}</div>`;
+      }
+    }
+
+    async function loadPastReports() {
+      historyPreview.textContent = "Loading reports...";
+      try {
+        const response = await fetch("/api/simulations/reports");
+        if (!response.ok) {
+          const text = await response.text();
+          throw new Error(text || `HTTP ${response.status}`);
+        }
+        const data = await response.json();
+        state.reports = Array.isArray(data.reports) ? data.reports : [];
+        if (!state.selectedReport && state.reports.length) {
+          state.selectedReport = state.reports[0].filename;
+        } else if (state.selectedReport && !state.reports.some((r) => r.filename === state.selectedReport)) {
+          state.selectedReport = state.reports.length ? state.reports[0].filename : "";
+        }
+        renderHistoryList();
+        if (state.selectedReport) {
+          await openPastReport(state.selectedReport);
+        } else {
+          historyPreview.textContent = "Run a simulation to generate your first report.";
+        }
+      } catch (err) {
+        historyList.innerHTML = "";
+        historyPreview.innerHTML = `<div class="error">Failed to load report list:\n${escapeHtml(String(err.message || err))}</div>`;
       }
     }
 
@@ -690,6 +835,7 @@
         state.running = false;
         stopTimer();
         updateRunState();
+        loadPastReports();
         return;
       }
 
@@ -805,6 +951,7 @@
           throw new Error("No executives found from /api/profiles/.");
         }
         renderExecutives();
+        await loadPastReports();
       } catch (err) {
         showError(`Failed to load executives:\n${String(err.message || err)}`);
       }

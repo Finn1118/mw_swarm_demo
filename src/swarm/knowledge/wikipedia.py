@@ -91,7 +91,7 @@ async def extract_executive_context(wiki_text: str) -> dict:
     response = await client.chat.completions.create(
         model=settings.openai_model,
         temperature=0.1,
-        max_tokens=2048,
+        max_completion_tokens=2048,
         messages=[
             {
                 "role": "user",

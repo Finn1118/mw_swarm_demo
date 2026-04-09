@@ -278,7 +278,7 @@ async def narrate_round(
         fallback = await client.chat.completions.create(
             model=settings.openai_model,
             temperature=0.4,
-            max_tokens=2048,
+            max_completion_tokens=2048,
             messages=[
                 {"role": "system", "content": NARRATOR_INSTRUCTIONS},
                 {
@@ -343,7 +343,7 @@ async def generate_final_analysis(
         fallback = await client.chat.completions.create(
             model=settings.openai_model,
             temperature=0.4,
-            max_tokens=2048,
+            max_completion_tokens=2048,
             messages=[
                 {"role": "system", "content": FINAL_ANALYSIS_INSTRUCTIONS},
                 {

@@ -44,7 +44,7 @@ async def extract_from_text(text: str) -> dict:
     response = await client.chat.completions.create(
         model=settings.openai_model,
         temperature=0.2,
-        max_tokens=2048,
+        max_completion_tokens=2048,
         messages=[
             {
                 "role": "user",

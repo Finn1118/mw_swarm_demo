@@ -98,7 +98,7 @@ async def run_simulation(
                 )
                 response = await client.chat.completions.create(
                     model=settings.openai_model,
-                    max_tokens=1024,
+                    max_completion_tokens=1024,
                     temperature=settings.sim_temperature,
                     messages=[
                         {"role": "system", "content": agent.build_system_prompt()},
@@ -156,7 +156,7 @@ async def run_simulation(
 
                 response = await client.chat.completions.create(
                     model=settings.openai_model,
-                    max_tokens=1024,
+                    max_completion_tokens=1024,
                     temperature=settings.sim_temperature,
                     messages=[
                         {"role": "system", "content": agent.build_system_prompt()},
@@ -298,7 +298,7 @@ async def run_simulation_stream(
 
                 response = await client.chat.completions.create(
                     model=settings.openai_model,
-                    max_tokens=1024,
+                    max_completion_tokens=1024,
                     temperature=settings.sim_temperature,
                     messages=[
                         {"role": "system", "content": agent.build_system_prompt()},

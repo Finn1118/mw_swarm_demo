@@ -4,7 +4,9 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-REPORTS_DIR = Path("E:/millionways_swarm/data/simulations")
+# Project root: .../mw_swarm_demo (src/swarm/output/report.py → parents[3])
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]
+REPORTS_DIR = _PROJECT_ROOT / "data" / "simulations"
 
 
 def _extract_motives_emotions(profile: dict) -> tuple[dict, dict]:
